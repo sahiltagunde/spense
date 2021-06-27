@@ -1,0 +1,482 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Cabin", sans-serif;
+  box-sizing: border-box;
+}
+/* Notification Line */
+header {
+  background-color: black;
+  padding: 0 7%;
+  width: 100%;
+}
+header p {
+  background-color: black;
+  color: white;
+  font-weight: 500;
+  word-spacing: 0.8px;
+  text-align: center;
+  font-size: 1rem;
+  padding: 11px 0;
+  margin-bottom: 0 !important;
+}
+.brnoDisplay {
+  display: block;
+}
+.notification-link {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+.notification-link:hover {
+  color: rgb(159, 159, 255);
+}
+span {
+  text-decoration: underline;
+}
+
+.firstContainer {
+  background-color: rgb(243, 243, 243) !important;
+  padding: 0 6% !important;
+}
+/* NavigationBar */
+.navbar {
+  padding-top: 2.2rem !important;
+}
+.navBar {
+  margin-left: 0 !important;
+}
+.ms-auto {
+  margin-left: 0 !important;
+}
+.nav-item {
+  align-self: center;
+  padding: 0 5px;
+}
+.navbar-brand {
+  font-weight: 600;
+  font-size: 1.8rem !important;
+}
+nav .navbar-nav li a {
+  color: black !important;
+  align-items: center;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+.navbar-toggler-icon {
+  background-image: url(/hamburger.svg) !important;
+  padding: 0.7em !important;
+  width: 1em !important;
+  height: 1em !important;
+}
+
+/* Page Below NavigationBar */
+
+#email-id {
+  padding: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid rgb(218, 218, 218);
+}
+#email-id::placeholder {
+  font-family: "Source Sans Pro", sans-serif;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+#firstPage {
+  padding-bottom: 50px;
+}
+
+.row {
+  margin-top: 30px !important;
+}
+.left-container {
+  padding-top: 40px;
+}
+.left-container h1 {
+  font-size: 2.5rem;
+  word-spacing: 2px;
+}
+.left-container p {
+  margin-top: 20px;
+  font-size: 1.2rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  color: rgb(139, 139, 139);
+}
+.promises h5 {
+  font-size: 1.1rem;
+  display: inline-block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+.promises {
+  margin-top: 10px;
+}
+.promise-icn {
+  display: inline-block;
+  margin-right: 10px;
+  font-size: 20px;
+  margin-top: 2px;
+}
+.textfiled {
+  margin: 20px 5px;
+}
+.btn-dark {
+  background-color: black !important;
+}
+.btn-lg {
+  font-size: 1rem !important;
+  padding: 10px 1rem !important;
+}
+.title-img {
+  width: 100%;
+  height: auto;
+  float: none;
+  margin: auto;
+}
+
+/* Social Icons  */
+.social-container {
+  background: white !important;
+  text-align: center;
+  margin: 20px 2%;
+}
+.social-logo {
+  width: 12%;
+  height: auto;
+  margin: 13px 20px;
+}
+.middle-container {
+  margin: 0 6.5%;
+  background-color: rgb(248, 248, 248);
+  border-radius: 11px;
+}
+
+.mleft-container {
+  padding-top: 10%;
+}
+.middlectxt {
+  word-spacing: 2px;
+  margin-left: 15%;
+  width: 70%;
+}
+.mright-container img {
+  width: 50%;
+  display: block;
+  margin-right: 15%;
+  height: auto;
+  margin-top: 50px;
+  float: right;
+  text-align: center;
+}
+.middleh2 {
+  font-size: 2.2rem;
+}
+.middlep {
+  font-size: 1.2rem;
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(139, 139, 139);
+}
+.middlelink {
+  font-family: "Source Sans Pro", sans-serif;
+  color: rgb(59, 59, 59);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.middlelink:hover {
+  color: rgb(159, 159, 255);
+}
+.lowerlink:hover {
+  color: rgb(159, 159, 255);
+}
+.lower-container {
+  margin: 10% 6%;
+}
+.line {
+  display: none;
+}
+.mlowerLeftC img {
+  text-align: center;
+  padding-top: 35px;
+  padding-left: 10px;
+  width: 90%;
+  height: auto;
+  margin: auto;
+}
+.mlowerRightC {
+  margin-top: 30px;
+}
+.brnoDisplay {
+  display: none;
+}
+.lowertxt {
+  width: 100%;
+  padding-left: 20px;
+}
+.lowerh2 {
+  color: ;
+  font-size: 1.8rem;
+}
+.lowerp {
+  color: rgb(139, 139, 139);
+  font-size: 0.9rem;
+  white-space: 2px;
+}
+.lowerlink {
+  word-spacing: 1px;
+  text-decoration: underline;
+  color: black;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 400;
+}
+
+@media only screen and (min-width: 992px) {
+  /* Notification Line */
+  header p {
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    word-spacing: 0.8px;
+    text-align: center;
+    font-size: 1rem;
+    padding: 11px 0;
+    margin-bottom: 0 !important;
+  }
+  .brnoDisplay {
+    display: none;
+  }
+
+  /* NavigationBar */
+  .navbar {
+    padding-top: 2.2rem !important;
+  }
+  .navBar {
+    margin-left: 35% !important;
+  }
+  .navbar-brand {
+    font-weight: 600;
+  }
+  .container-fluid {
+    background-color: rgb(248, 248, 248) !important;
+    padding: 0 6% !important;
+  }
+  .left-container h1 {
+    font-size: 3rem;
+    word-spacing: 2px;
+  }
+  .left-container p {
+    margin-top: 20px;
+  }
+
+  .promise-icn {
+    font-size: 22px;
+  }
+  .promises h5 {
+    font-size: 1rem;
+  }
+  /* TextInput */
+
+  .textfiled {
+    margin: 20px 5px;
+  }
+  #email-id {
+    margin-right: 10px;
+  }
+  .btn-dark {
+    background-color: black !important;
+  }
+  .btn-lg {
+    font-size: 1.1rem !important;
+    padding: 10px 1rem !important;
+  }
+  .title-img {
+    float: right;
+    padding-right: 15px;
+    width: 400px;
+    height: auto;
+  }
+  /* Middle Page */
+
+  .social-container {
+    background: white !important;
+    text-align: center;
+
+    margin: 20px 2.9%;
+  }
+  .social-logo {
+    width: 7.5%;
+    height: auto;
+    margin: 1% 2.14%;
+  }
+  .middle-container {
+    margin: 0 6.5%;
+    background-color: rgb(248, 248, 248);
+    border-radius: 11px;
+  }
+  .mleft-container {
+    padding-top: 5%;
+  }
+
+  .middlectxt {
+    word-spacing: 1px;
+    margin-left: 17%;
+    width: 70%;
+  }
+  .mright-container img {
+    width: 350px;
+    height: auto;
+    padding-top: 50px;
+    float: right;
+    margin-right: 50px;
+  }
+  .middleh2 {
+    font-size: 2.1rem;
+  }
+  .middlep {
+    font-size: 1.1rem;
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(139, 139, 139);
+  }
+
+  /* lower middle Container */
+  .lower-container {
+    margin: 3% 6.5%;
+  }
+  .mlowerLeftC {
+    position: relative;
+  }
+  .line {
+    display: inline-block;
+    width: 150px;
+    height: 3px !important;
+    top: 50%;
+    right: -95px;
+    background-color: black !important;
+    position: absolute;
+    transform: rotate(90deg);
+    opacity: 0.55 !important;
+  }
+  .mlowerLeftC img {
+    width: 100%;
+    height: auto;
+    padding-left: 10%;
+    padding-top: 20px;
+  }
+  .mlowerRightC {
+    padding-top: 10%;
+    align-items: center;
+  }
+  .lowertxt {
+    padding-left: 12%;
+  }
+  .lowerh2 {
+    font-size: 2rem;
+  }
+  .lowerp {
+    font-size: 1rem;
+    word-spacing: 2px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 300;
+    color: rgb(139, 139, 139);
+  }
+  /* Footer */
+  /* .footer-container{
+    background-color: black!important;
+    color: white!important;
+    width: 100%;
+    padding: 40px 10%!important; 
+  }
+  .col-lg-6 ul li{
+    list-style-type: none;
+   
+
+  }
+  .col-lg-6 ul li a{
+    text-decoration: none;
+    color: black;
+    display: inline-block; 
+  }
+.footer-cont{
+  display: inline-block;
+}
+.spenseC{
+  margin-top: ;
+  width: 50%;
+  padding: 40px;
+}
+.sitemapC{
+  width: 50%;
+  padding: 40px;
+} */
+}
+
+@media only screen and (max-width: 395px) {
+  /* NavigationBar */
+  .navbar-brand {
+    font-weight: 600;
+    font-size: 1.8rem !important;
+  }
+  .navbar-toggler {
+    padding: 0.2rem 0.5rem !important;
+  }
+  .navbar-toggler-icon {
+    background-image: url(/images/Hamburger\ Menu.svg) !important;
+    width: 1em !important;
+    height: 1em !important;
+  }
+  .promises h5 {
+    font-size: 0.8rem;
+  }
+  /* TextInput */
+
+  #email-id {
+    padding: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+  }
+  .btn-lg {
+    font-size: 1rem !important;
+    padding: 8px 1rem !important;
+  }
+  .title-img {
+    float: none;
+    margin: auto;
+    width: 100%;
+    height: auto;
+  }
+  /* Middle Page */
+  .social-logo {
+    width: 20%;
+    margin: 10px 20px;
+  }
+  .social-container {
+    background: white !important;
+    margin: 5% 2%;
+  }
+  .mright-container img {
+    width: 70%;
+    display: block;
+    float: right;
+    margin-right: 10%;
+    height: auto;
+    margin-top: 50px;
+  }
+  .middleh2 {
+    font-size: 1.7rem;
+  }
+  .middlep {
+    font-size: 1rem;
+    font-family: "Source Sans Pro", sans-serif;
+    color: rgb(139, 139, 139);
+  }
+  .middlectxt {
+    word-spacing: 2px;
+    margin-left: 10%;
+    width: 70%;
+  }
+}
