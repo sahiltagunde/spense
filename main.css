@@ -65,7 +65,7 @@ nav .navbar-nav li a {
   font-size: 1.1rem;
 }
 .navbar-toggler-icon {
-  background-image: url(hamburger.svg) !important;
+  background-image: url(hamburger.svg)!important;
   padding: 0.7em !important;
   width: 1em !important;
   height: 1em !important;
