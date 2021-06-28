@@ -65,7 +65,7 @@ nav .navbar-nav li a {
   font-size: 1.1rem;
 }
 .navbar-toggler-icon {
-  background-image: url(hamburger.svg)!important;
+  background-image: url(hamburger.svg) !important;
   padding: 0.7em !important;
   width: 1em !important;
   height: 1em !important;
@@ -74,6 +74,8 @@ nav .navbar-nav li a {
 /* Page Below NavigationBar */
 
 #email-id {
+  
+  font-family: sans-serif;
   padding: 10px;
   margin-right: 10px;
   background-color: white;
@@ -88,11 +90,9 @@ nav .navbar-nav li a {
 
 #firstPage {
   padding-bottom: 50px;
-}
-
-.row {
   margin-top: 30px !important;
 }
+
 .left-container {
   padding-top: 40px;
 }
@@ -219,7 +219,7 @@ nav .navbar-nav li a {
   padding-left: 20px;
 }
 .lowerh2 {
-  color: ;
+ 
   font-size: 1.8rem;
 }
 .lowerp {
@@ -233,6 +233,41 @@ nav .navbar-nav li a {
   color: black;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: 400;
+}
+
+#footer{
+  background: black;
+  color: white;
+ padding-bottom: 2%;
+  
+}
+.footer-container{
+  text-align: left;
+  margin: 2% 6.5% 0;
+  padding: 4% 0;
+}
+.sitemapC{
+  text-align: left!important;
+}
+.row-container h6:not(.spenseC h6){
+  padding-top: 20px;
+  font-size: 1.04rem;
+  padding-left: 4%!important;
+}
+#footer a,.footer-container p{
+  color: rgb(200, 200, 200);
+  font-size: 0.95rem;
+}
+#footer a:hover{
+  color: rgb(159, 159, 255);
+}
+
+.footer-container .spenseC h6,.spenseC p{
+  text-align: left;
+  max-width: 30ch;  
+}
+.resourcesC,.companyC,.sitemapC,.opportunitiesC{
+  padding-left: 0;
 }
 
 @media only screen and (min-width: 992px) {
@@ -293,6 +328,7 @@ nav .navbar-nav li a {
   .btn-lg {
     font-size: 1.1rem !important;
     padding: 10px 1rem !important;
+    
   }
   .title-img {
     float: right;
@@ -385,34 +421,27 @@ nav .navbar-nav li a {
     color: rgb(139, 139, 139);
   }
   /* Footer */
-  /* .footer-container{
-    background-color: black!important;
-    color: white!important;
-    width: 100%;
-    padding: 40px 10%!important; 
+  #footer{ 
+  padding-bottom: 0px;
   }
-  .col-lg-6 ul li{
-    list-style-type: none;
-   
-
-  }
-  .col-lg-6 ul li a{
+  #footer a{
     text-decoration: none;
-    color: black;
-    display: inline-block; 
+    font-size: 0.9rem;
   }
-.footer-cont{
-  display: inline-block;
-}
-.spenseC{
-  margin-top: ;
-  width: 50%;
-  padding: 40px;
-}
-.sitemapC{
-  width: 50%;
-  padding: 40px;
-} */
+
+  .spenseC h6{
+    font-size: 1.5rem!important;
+  }
+  .spenseC p{
+    font-size: 0.9rem;
+    word-spacing: 1.2px;
+  }
+  .resourcesC,.companyC{
+    padding-left: 0;
+  }
+  .resourcesC,.companyC,.sitemapC,.opportunitiesC{
+    padding-left: 4%;
+  }
 }
 
 @media only screen and (max-width: 395px) {
@@ -425,9 +454,12 @@ nav .navbar-nav li a {
     padding: 0.2rem 0.5rem !important;
   }
   .navbar-toggler-icon {
-    background-image: url(/images/Hamburger\ Menu.svg) !important;
+    background-image: url(hamburger.svg) !important;
     width: 1em !important;
     height: 1em !important;
+  }
+  #firstPage{
+    padding-left: 10px;
   }
   .promises h5 {
     font-size: 0.8rem;
@@ -440,6 +472,7 @@ nav .navbar-nav li a {
     margin-bottom: 10px;
   }
   .btn-lg {
+    margin-top: 10px!important;
     font-size: 1rem !important;
     padding: 8px 1rem !important;
   }
@@ -476,7 +509,14 @@ nav .navbar-nav li a {
   }
   .middlectxt {
     word-spacing: 2px;
-    margin-left: 10%;
+    margin-left: 2%;
     width: 70%;
+  }
+
+  /* Footer */
+
+  .footer-container{
+    text-align: left;
+    
   }
 }
